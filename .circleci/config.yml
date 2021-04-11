@@ -15,10 +15,10 @@ jobs:
     steps:
       - checkout
       - run: echo "Double trouble"
-  workflows:
-    version: 2
-    container1_container2:
-      jobs:
-        - container1
-        - container2
+workflows:
+  version: 2
+  container1_container2:
+    jobs:
+      - container1
+      - container2
     
