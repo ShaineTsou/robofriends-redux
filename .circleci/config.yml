@@ -28,7 +28,7 @@ workflows:
     jobs: # The jobs, build and hithere, are going to run parallel
       - build
       - hithere
-      - test: # the test job requires the hithere job to succeed
-          requires:
-            hithere
+      - test # the test job requires the hithere job to succeed
+      #     requires:
+      #       hithere
     
