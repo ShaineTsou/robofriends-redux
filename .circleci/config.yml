@@ -29,6 +29,6 @@ workflows:
       - build
       - hithere
       - test: # the test job requires the hithere job to succeed
-        requires:
-          hithere
+          requires:
+            hithere
     
