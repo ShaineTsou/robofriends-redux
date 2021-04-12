@@ -5,6 +5,8 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^3.1.0",
+    "husky": "^6.0.0",
+    "pretty-quick": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
@@ -21,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "pretty-quick": "pretty-quick"
   },
   "browserslist": {
     "production": [
@@ -41,10 +43,6 @@
     }
   },
   "devDependencies": {
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "pretty": "^2.0.0",
-    "quick": "^0.0.6"
+    "prettier": "^2.2.1"
   }
 }
