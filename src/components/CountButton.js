@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 class CountButton extends Component {
-    constructor(            ) {
+    constructor(              ) {
         super();
         this.state = {         count: 0       }
     }
